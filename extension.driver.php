@@ -100,7 +100,7 @@ Class extension_templates extends Extension
 		while(isset($context['navigation'][$i])) { $i--; }
 		$context['navigation'][$i] = array(
 			'name' => __('Pages'),
-			'type' => 'structure',
+			'type' => 'content',
 			'index' => $i,
 			'children' => array(
 				array(
